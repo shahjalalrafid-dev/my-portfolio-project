@@ -62,7 +62,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://www.linkedin.com/in/md-shahjalal-rafid",
   resumeUrl: "/resume.pdf",
   profileImage: "/profile.jpg",
-  availability: "Available for Remote Roles & High-Impact Freelance Projects",
+  availability: "Available for Remote Roles & Impactful Freelance Projects",
 };
 
 export const HIGHLIGHT_STATS = [

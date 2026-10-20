@@ -172,7 +172,7 @@ export default function Hero() {
                   <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-black/70 backdrop-blur-md border border-white/15 flex items-center justify-between">
                     <div className="min-w-0">
                       <p className="text-xs sm:text-sm font-bold text-white tracking-wide truncate">{PERSONAL_INFO.name}</p>
-                      <p className="text-[10px] sm:text-[11px] text-emerald-400 font-mono truncate">Associate Full Stack Developer • Pro Frontend</p>
+                      <p className="text-[10px] sm:text-[11px] text-emerald-400 font-mono truncate">Associate Full Stack Developer <span className="lg:inline-block hidden">• Pro Frontend</span> </p>
                     </div>
                     <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0 ml-2" />
                   </div>
