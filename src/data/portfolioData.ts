@@ -260,10 +260,10 @@ export const PROJECTS: Project[] = [
     id: "fitlog",
     title: "FitLog — Workout & Fitness Companion",
     subtitle: "Dark-themed fitness planner & workout logger built for serious lifters",
-    category: "Full Stack / React App",
+    category: "Full Stack / Nextjs App",
     image: "/fitlog.jpg",
     liveUrl: "https://fit-log-project-rho.vercel.app/",
-    githubUrl: "https://github.com/shahjalalrafid-dev",
+    githubUrl: "https://github.com/shahjalalrafid-dev/fit-log-project",
     shortDescription:
       "A fast, dark-mode fitness tracking web application that allows gym enthusiasts to browse structured lift libraries, organize daily training routines, and calculate workout metrics.",
     longDescription:
@@ -299,10 +299,10 @@ export const PROJECTS: Project[] = [
     id: "bazardor",
     title: "BazarDor (বাজার দর) — Commodity Price Tracker",
     subtitle: "Real-time daily market price feed with price trend indicators",
-    category: "Full Stack / React App",
+    category: "Full Stack / Nextjs App",
     image: "/bazardor.jpg",
     liveUrl: "https://bazar-dor-project-psi.vercel.app/",
-    githubUrl: "https://github.com/shahjalalrafid-dev",
+    githubUrl: "https://github.com/shahjalalrafid-dev/bazar-dor-project",
     shortDescription:
       "A comprehensive market pricing dashboard tracking daily essentials (rice, lentils, oil, produce) in Bangladesh with price shift indicators, Bengali localization, and category filtering.",
     longDescription:
@@ -341,7 +341,7 @@ export const PROJECTS: Project[] = [
     category: "Frontend Web Application",
     image: "/omnifood.jpg",
     liveUrl: "https://shahjalalrafid-dev.github.io/foodcart-project/",
-    githubUrl: "https://github.com/shahjalalrafid-dev",
+    githubUrl: "https://github.com/shahjalalrafid-dev/foodcart-project",
     shortDescription:
       "A pixel-perfect, mobile-first responsive landing page featuring smooth sticky navigation, interactive dietary filters, testimonials, and dynamic cart components.",
     longDescription:
