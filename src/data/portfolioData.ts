@@ -62,14 +62,15 @@ export const PERSONAL_INFO = {
   linkedin: "https://www.linkedin.com/in/md-shahjalal-rafid",
   resumeUrl: "/resume.pdf",
   profileImage: "/profile.jpg",
-  availability: "Available for Full-time Roles & High-Impact Projects",
+  availability: "Available for Remote Roles & High-Impact Freelance Projects",
 };
 
 export const HIGHLIGHT_STATS = [
   { label: "Projects Completed", value: "10+", detail: "Web apps & interactive platforms" },
+  { label: "Technical Focus", value: "MERN Stack", detail: "Next.js, React, Node.js & Mongo" },
   { label: "Engineering Foundation", value: "BUET", detail: "B.Sc. in Civil Engineering" },
   { label: "Financial Ops Managed", value: "20M+ BDT", detail: "Daily Core Banking accuracy" },
-  { label: "Technical Focus", value: "MERN Stack", detail: "Next.js, React, Node.js & Mongo" },
+  
 ];
 
 export const ABOUT_DETAILS = {
