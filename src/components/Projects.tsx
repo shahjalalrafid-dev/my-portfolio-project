@@ -17,7 +17,7 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="relative py-20 sm:py-24 border-t border-white/10 bg-[#080b11] overflow-hidden w-full max-w-full">
+    <section id="projects" className="relative py-20 sm:py-24 border-t border-white/10 bg-[#080b11] overflow-hidden w-full max-w-full scroll-mt-20 sm:scroll-mt-24">
       {/* Background Glows */}
       <div className="absolute top-1/3 left-0 w-[300px] sm:w-[600px] h-[250px] sm:h-[350px] bg-emerald-500/5 blur-[120px] pointer-events-none rounded-full" />
       <div className="absolute bottom-1/3 right-0 w-[300px] sm:w-[600px] h-[250px] sm:h-[350px] bg-cyan-500/5 blur-[120px] pointer-events-none rounded-full" />
@@ -45,13 +45,14 @@ export default function Projects() {
               className="group flex flex-col rounded-3xl bg-white/[0.03] border border-white/10 hover:border-emerald-500/40 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-300 overflow-hidden w-full"
             >
               {/* Project Image Banner */}
-              <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-900 border-b border-white/10">
+              <div className="relative w-full h-48 sm:h-52 md:h-56 min-h-[190px] overflow-hidden bg-slate-900 border-b border-white/10">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-out"
+                  priority={idx === 0}
                 />
                 
                 {/* Gradient overlay */}

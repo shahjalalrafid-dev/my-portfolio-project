@@ -33,12 +33,13 @@ export default function Hero() {
           <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left w-full">
             
             {/* Status Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs sm:text-sm font-medium mb-5 shadow-sm shadow-emerald-500/10 max-w-full">
+            <div className="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs sm:text-sm font-medium mb-5 shadow-sm shadow-emerald-500/10 max-w-full">
               <span className="relative flex h-2 w-2 shrink-0">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              <span className="truncate">{PERSONAL_INFO.availability}</span>
+              <span className="sm:hidden font-medium">Available for Remote Roles & Impactful Freelance Projects</span>
+              <span className="hidden sm:inline font-medium">{PERSONAL_INFO.availability}</span>
             </div>
 
             {/* Name & Primary Headline */}
